@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" role="img" aria-label="KaviosPix preview">
+  <defs>
+    <!-- Background: pure white ↔ snow ↔ soft off‑white -->
+    <linearGradient id="kp-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="45%" style="stop-color:#fffafa"/>
+      <stop offset="100%" style="stop-color:#f5f5f4"/>
+    </linearGradient>
+    <linearGradient id="kp-ph1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fda4af"/>
+      <stop offset="100%" style="stop-color:#fb7185"/>
+    </linearGradient>
+    <linearGradient id="kp-ph2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a5b4fc"/>
+      <stop offset="100%" style="stop-color:#818cf8"/>
+    </linearGradient>
+    <linearGradient id="kp-ph3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6ee7b7"/>
+      <stop offset="100%" style="stop-color:#34d399"/>
+    </linearGradient>
+    <linearGradient id="kp-ph4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fcd34d"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="kp-btn" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#bfdbfe"/>
+      <stop offset="100%" style="stop-color:#7dd3fc"/>
+    </linearGradient>
+    <filter id="kp-sh" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#78716c" flood-opacity="0.1"/>
+    </filter>
+    <filter id="kp-soft" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="kp-rail" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#fafaf9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="24" fill="url(#kp-bg)"/>
+  <rect width="800" height="520" rx="24" fill="none" stroke="#e7e5e4" stroke-width="2"/>
+
+  <!-- Narrow album rail — vertical nav feel, not CRM top bar -->
+  <rect x="36" y="36" width="132" height="376" rx="18" fill="url(#kp-rail)" stroke="#e7e5e4" stroke-width="1.5" filter="url(#kp-soft)"/>
+  <text x="68" y="72" font-family="system-ui,sans-serif" font-size="14" font-weight="900" fill="#9a3412">Albums</text>
+  <rect x="54" y="92" width="96" height="8" rx="4" fill="#fdba74" opacity="0.7"/>
+  <text x="58" y="124" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#78350f">All photos</text>
+  <text x="58" y="152" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#a16207">Favorites</text>
+  <text x="58" y="180" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#a16207">Shared</text>
+  <text x="58" y="208" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#ca8a04">Archive</text>
+  <circle cx="102" cy="270" r="28" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <path d="M94 274 L101 284 L118 261" stroke="#d97706" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Masonry-style gallery grid -->
+  <g filter="url(#kp-sh)">
+    <rect x="196" y="44" width="168" height="128" rx="20" fill="url(#kp-ph1)" stroke="#fff" stroke-width="4"/>
+    <circle cx="330" cy="72" r="18" fill="#fff" opacity="0.35"/>
+    <path d="M214 154 L274 118 L344 154 Z" fill="#fff" opacity="0.25"/>
+    <rect x="384" y="44" width="152" height="168" rx="20" fill="url(#kp-ph2)" stroke="#fff" stroke-width="4"/>
+    <rect x="412" y="76" width="96" height="64" rx="12" fill="#fff" opacity="0.2"/>
+    <rect x="556" y="44" width="208" height="112" rx="20" fill="url(#kp-ph3)" stroke="#fff" stroke-width="4"/>
+    <circle cx="620" cy="98" r="36" fill="#fff" opacity="0.3"/>
+    <rect x="196" y="192" width="128" height="152" rx="20" fill="url(#kp-ph4)" stroke="#fff" stroke-width="4"/>
+    <rect x="212" y="248" width="96" height="48" rx="10" fill="#fff" opacity="0.35"/>
+    <rect x="340" y="232" width="196" height="112" rx="20" fill="url(#kp-ph1)" stroke="#fff" stroke-width="4" opacity="0.92"/>
+    <rect x="552" y="176" width="212" height="168" rx="20" fill="url(#kp-ph2)" stroke="#fff" stroke-width="4" opacity="0.88"/>
+    <rect x="604" y="208" width="108" height="72" rx="14" fill="#fff" opacity="0.22"/>
+    <rect x="340" y="364" width="240" height="52" rx="18" fill="#fff" stroke="#fed7aa" stroke-width="2" opacity="0.95"/>
+    <rect x="362" y="382" width="132" height="10" rx="3" fill="#fed7aa" opacity="0.5"/>
+    <rect x="362" y="400" width="196" height="6" rx="2" fill="#fde68a" opacity="0.55"/>
+  </g>
+
+  <!-- Heart badge -->
+  <circle cx="332" cy="158" r="14" fill="#fff" stroke="#fb7185" stroke-width="2"/>
+  <path d="M332 165 C328 161 323 156 326 152 C328 149 332 151 332 154 C332 151 336 149 338 152 C341 156 336 161 332 165Z" fill="#fb7185"/>
+
+  <!-- Floating bottom pill — light blue buttons (gallery actions) -->
+  <rect x="196" y="428" width="568" height="60" rx="30" fill="#fff" stroke="#bae6fd" stroke-width="2" filter="url(#kp-soft)"/>
+  <rect x="220" y="440" width="116" height="36" rx="18" fill="url(#kp-btn)" stroke="#38bdf8" stroke-width="2"/>
+  <text x="278" y="463" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="800" fill="#0c4a6e">Upload</text>
+  <rect x="352" y="440" width="132" height="36" rx="18" fill="url(#kp-btn)" stroke="#38bdf8" stroke-width="2"/>
+  <text x="418" y="463" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="800" fill="#0c4a6e">New album</text>
+  <rect x="500" y="440" width="96" height="36" rx="18" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="1.5"/>
+  <text x="548" y="463" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="800" fill="#0369a1">Share</text>
+  <rect x="612" y="440" width="132" height="36" rx="18" fill="#e0f2fe" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="678" y="463" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="800" fill="#0369a1">Slideshow</text>
+</svg>
