@@ -23,7 +23,7 @@
   <rect width="800" height="520" rx="24" fill="none" stroke="#bfdbfe" stroke-width="2"/>
 
   <rect x="42" y="40" width="716" height="58" rx="14" fill="url(#an-top)" stroke="#1e40af" stroke-width="1"/>
-  <rect x="64" y="58" width="112" height="22" rx="6" fill="#fff" opacity="0.95"/>
+  <text x="64" y="74" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="-0.03em">TrackFlow</text>
   <rect x="194" y="62" width="88" height="14" rx="3" fill="#bfdbfe" opacity="0.45"/>
   <rect x="298" y="62" width="64" height="14" rx="3" fill="#93c5fd" opacity="0.35"/>
   <circle cx="710" cy="69" r="16" fill="#fff" opacity="0.2" stroke="#93c5fd" stroke-width="2"/>

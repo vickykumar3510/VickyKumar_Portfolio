@@ -42,12 +42,13 @@
 
   <!-- Narrow album rail — vertical nav feel, not CRM top bar -->
   <rect x="36" y="36" width="132" height="376" rx="18" fill="url(#kp-rail)" stroke="#e7e5e4" stroke-width="1.5" filter="url(#kp-soft)"/>
-  <text x="68" y="72" font-family="system-ui,sans-serif" font-size="14" font-weight="900" fill="#9a3412">Albums</text>
-  <rect x="54" y="92" width="96" height="8" rx="4" fill="#fdba74" opacity="0.7"/>
-  <text x="58" y="124" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#78350f">All photos</text>
-  <text x="58" y="152" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#a16207">Favorites</text>
-  <text x="58" y="180" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#a16207">Shared</text>
-  <text x="58" y="208" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#ca8a04">Archive</text>
+  <text x="68" y="62" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#1c1917" letter-spacing="-0.02em">KaviosPix</text>
+  <text x="68" y="88" font-family="system-ui,sans-serif" font-size="14" font-weight="900" fill="#9a3412">Albums</text>
+  <rect x="54" y="108" width="96" height="8" rx="4" fill="#fdba74" opacity="0.7"/>
+  <text x="58" y="140" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#78350f">All photos</text>
+  <text x="58" y="168" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#a16207">Favorites</text>
+  <text x="58" y="196" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#a16207">Shared</text>
+  <text x="58" y="224" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#ca8a04">Archive</text>
   <circle cx="102" cy="270" r="28" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
   <path d="M94 274 L101 284 L118 261" stroke="#d97706" stroke-width="3" fill="none" stroke-linecap="round"/>
 
